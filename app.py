@@ -22,10 +22,6 @@ st.markdown("""
 """)
 uploaded_file = st.file_uploader("Votre fichier (CSV)", type=["csv"])
 
-st.sidebar.caption(
-    "Application développée en Python par Camille Racca et mise à disposition via GitHub et Streamlit."
-)
-
 if uploaded_file is None:
     st.stop()
 
