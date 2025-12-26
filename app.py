@@ -116,3 +116,6 @@ ___________________________________
 """
         st.text(rapport)
 
+st.markdown("""
+___________________________________
+Application développée en Python par Camille Racca et mise à disposition via GitHub et Streamlit. """)
