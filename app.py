@@ -21,6 +21,11 @@ st.markdown("""
 4. Importer le fichier CSV dans l'application : 
 """)
 uploaded_file = st.file_uploader("Votre fichier (CSV)", type=["csv"])
+
+st.caption(
+    "Application développée en Python par Camille Racca et mise à disposition via GitHub et Streamlit."
+)
+
 if uploaded_file is None:
     st.stop()
 
@@ -115,7 +120,3 @@ Au vu de l'ensemble de ces éléments, ce variant est classé {class_affichage},
 ___________________________________
 """
         st.text(rapport)
-
-st.caption(
-    "Application développée en Python par Camille Racca et mise à disposition via GitHub et Streamlit."
-)
