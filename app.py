@@ -22,7 +22,7 @@ st.markdown("""
 """)
 uploaded_file = st.file_uploader("Votre fichier (CSV)", type=["csv"])
 
-st.caption(
+st.sidebar.caption(
     "Application développée en Python par Camille Racca et mise à disposition via GitHub et Streamlit."
 )
 
