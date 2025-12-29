@@ -80,19 +80,19 @@ Rapport d'analyse génétique pour le patient {id_patient} (Série d'analyse : {
         else:
             functional_sentence = "Aucune analyse fonctionnelle n'est disponible pour ce variant."
 
-        if class_acmg == "1.0":
+        if class_acmg == "1.0" or class_acmg == "1":
             class_sentence = "bénin"
             class_affichage = 1
-        elif class_acmg == "2.0":
+        elif class_acmg == "2.0" or class_acmg == "2":
             class_sentence = "probablement bénin"
             class_affichage = 2
-        elif class_acmg == "3.0":
+        elif class_acmg == "3.0" or class_acmg == "3":
             class_sentence = "de signification indéterminée"
             class_affichage = 3
-        elif class_acmg == "4.0":
+        elif class_acmg == "4.0" or class_acmg == "4":
             class_sentence = "probablement pathogène"
             class_affichage = 4
-        elif class_acmg == "5.0":
+        elif class_acmg == "5.0" or class_acmg == "5":
             class_sentence = "pathogène"
             class_affichage = 5
         else:
